@@ -1,0 +1,19 @@
+{
+    "short_name" : "R-bitary Adblocker",
+    "name" : "Anurag R-bitar Ad-blocker for Google Chrome",
+    "version" : "1.0.0",
+    "description" : "A simple Ad-blocker to block certain URL's and annoying ads on Google Chrome",
+    "permissions" : ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background" : {
+        "scripts" : ["background.js"]
+    },
+    "icons" : {
+        "16" : "icons/ad-blocker_48.png",
+        "48" : "icons/ad-blocker_48.png",
+        "128" : "icons/ad-blocker_128.png"
+    },
+    "browser-action" : {
+        "default_icon" : "ad-blocker_128.png"
+    },
+    "manifest_version" : 2
+}
